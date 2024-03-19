@@ -53,7 +53,7 @@ if select == "Home":
 if select == "Data Exploration":
     tab1, tab2, tab3, tab4, tab5= st.tabs(["***PRICE ANALYSIS***","***AVAILABILITY ANALYSIS***","***LOCATION BASED***", "***GEOSPATIAL VISUALIZATION***", "***TOP CHARTS***"])
     with tab1:
-        st.title("**PRICE DIFFERENCE**")
+        st.title("**PRICE ANALYSIS**")
         col1,col2= st.columns(2)
 
         with col1:
